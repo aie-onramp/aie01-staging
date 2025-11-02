@@ -13,26 +13,34 @@
 
 <p align="center"><img src="Gitflow_visualization.png" alt="Gitflow Visualization" width="800px" /></p>
 
-## 🚀 Short Development Setup (Used in Our Demo)
+## 🏗️ How AIM Does Assignments
 
-Quick setup guide to get your development environment running:
+> 📅 **Assignments will always be released to students as live class begins.** We will never release assignments early.
 
-### Essential Tools Installation
+> **Assignments are voluntary** – Complete them at your own pace to reinforce your learning!
 
-1. **Install Cursor IDE**
-   - Download and install [Cursor](https://cursor.sh/)
-   - This is your AI-powered development environment
+Each assignment will have a few of the following categories of exercises:
 
-2. **Configure Cursor Environment**
-   - Click the **Extensions** tab (left sidebar)
-   - Install **Python** extension (search "Python", click Install)
-   - Install **Jupyter** extension (search "Microsoft Jupyter Notebook", click Install)
+- ❓ **Questions** – these will be questions that you will be expected to gather the answer to! These can appear as general questions, or questions meant to spark a discussion in your breakout rooms!
 
-3. **Python Setup**
-   - Cursor comes with Python support
-   - Verify installation by opening a `.py` file and confirming syntax highlighting works
+- 🏗️ **Activities** – these will be work or coding activities meant to reinforce specific concepts or theory components.
 
-### Git Workflow with Upstream
+- 🚧 **Advanced Builds (optional)** – Take on a challenge! These builds require you to create something with minimal guidance outside of the documentation. Completing an Advanced Build earns full credit in place of doing the base assignment notebook questions/activities.
+
+### First Assignment
+
+Your first assignment is straightforward and designed to ensure your development environment is ready:
+
+### 1. Set up your development environment
+
+**Required steps:**
+- Set up your environment by following the [Environment_setup.md](Environment_setup.md) file
+- Clone the AIEO1 repo into your local folder by following the steps in [Setting_up_local_repo.md](./Setting_up_local_repo.md)
+- Open Cursor, create your new virtual environment, install necessary packages with `pip install -r requirements.txt`
+
+**🚀 Short Git Development Setup (Quick Reference - Used in Our Demo):**
+
+##### Git Workflow with Upstream
 
 Follow this pattern to work with course materials while keeping your own repository organized:
 
@@ -91,7 +99,7 @@ git checkout -b lesson2-assignment
 
 For detailed setup instructions, visit: [Interactive Dev Environment Repo](https://github.com/AI-Maker-Space/Interactive-Dev-Environment-for-AI-Engineers)
 
-### GitFlow Best Practices
+#### GitFlow Best Practices
 
 Copy the following GitFlow commands into a `.gitflow_rules` file in your Cursor project root. This serves as a quick reference for professional Git workflows:
 
@@ -161,44 +169,23 @@ git push origin --delete release/1.2.0
 
 > 💡 **Tip:** Create a `.gitflow_rules` file in your project root and paste these commands for quick reference!
 
-## 🏗️ How AIM Does Assignments
+### 2. Communicate with OpenAI GPT models through the API via Google Colab Notebooks
 
-> 📅 **Assignments will always be released to students as live class begins.** We will never release assignments early.
+- Fill in all the activities and questions in the notebook [`OpenAI_playground_for_developers.ipynb`](./OpenAI_playground_for_developers.ipynb)
 
-> **Assignments are voluntary** – Complete them at your own pace to reinforce your learning!
+### 3. Set up Cursor, our AI-assisted Interactive Development Environment (IDE)
 
-Each assignment will have a few of the following categories of exercises:
+- Work with Jupyter Notebooks locally in IDE according to Git best-practices
+- Use AI-assist to help understand each chunk of Python code
+- Push your changes to Git following best git practices
 
-- ❓ **Questions** – these will be questions that you will be expected to gather the answer to! These can appear as general questions, or questions meant to spark a discussion in your breakout rooms!
+### 4. Complete the workflow
 
-- 🏗️ **Activities** – these will be work or coding activities meant to reinforce specific concepts or theory components.
-
-- 🚧 **Advanced Builds (optional)** – Take on a challenge! These builds require you to create something with minimal guidance outside of the documentation. Completing an Advanced Build earns full credit in place of doing the base assignment notebook questions/activities.
-
-### First Assignment
-
-Your first assignment is straightforward and designed to ensure your development environment is ready:
-
-1. **Set up your development environment**
-    - Set up your environment by following `Environment_setup.md` file
-    - Clone AIEO1 repo into your local folder by following `Setting_up_local_repo.md` file
-    - Open Cursor, create your new virtual environment, install necessary packages with `pip install -r requirements.txt`
-
-2. **Communicate with OpenAI GPT models through the API via Google Colab Notebooks**
-    - Fill in all the activities and questions in the notebook
-
-3. **Set up Cursor, our AI-assisted Interactive Development Environment (IDE)**
-    - Work with Jupyter Notebooks locally in IDE according to Git best-practices
-    - Use AI-assist to help understand each chunk of Python code
-    - Push your changes to Git following best git practices
-
-4. **Complete the workflow**
-    - Re-upload modified notebook to Google Colab as a shareable
-    - **Making your notebook shareable on Google Colab:** After pushing your notebook to GitHub, convert the GitHub link to a Colab shareable link by changing:
-      - From: `https://github.com/katerinagawthorpe/myproject/blob/main/demo.ipynb`
-      - To: `https://colab.research.google.com/github/katerinagawthorpe/myproject/blob/main/demo.ipynb`
-      - Simply replace `https://github.com/` with `https://colab.research.google.com/github/` in your GitHub notebook URL
-      - Share the new link - it will open directly in Google Colab and can be run in the browser!
+- Re-upload modified notebook to Google Colab as a shareable
+- **Making your notebook shareable on Google Colab:** After pushing your notebook to GitHub, convert the GitHub link to a Colab shareable link by changing:
+  - From: `https://github.com/katerinagawthorpe/myproject/blob/main/demo.ipynb`
+  - To: `https://colab.research.google.com/github/katerinagawthorpe/myproject/blob/main/demo.ipynb`
+  - Simply replace `https://github.com/` with `https://colab.research.google.com/github/` in your GitHub notebook URL
+  - Share the new link - it will open directly in Google Colab and can be run in the browser!
 
 This will help you get comfortable with the tools and workflow we'll be using throughout the course!
-
