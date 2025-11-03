@@ -52,14 +52,14 @@ git clone git@github.com:yourusername/yourrepo.git
 cd yourrepo
 
 # 2. Add the class repository as "upstream" remote
-git remote add upstream git@github.com:AI-Maker-Space/AIE8.git
+git remote add upstream git@github.com:AI-Maker-Space/AIEO1.git
 
 # 3. Verify both remotes are connected
 git remote -v
 # You should see both "origin" (your repo) and "upstream" (class repo)
 
 # 4. Pull course materials from upstream
-git pull upstream main --allow-unrelated-histories
+git pull upstream main --allow-unrelated-histories #--no-rebase --no-edit -X ours
 
 # 5. Push to your own repo
 git push origin main
