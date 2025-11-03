@@ -36,7 +36,7 @@ Your first assignment is straightforward and designed to ensure your development
 **Required steps:**
 - Set up your environment by following the [Environment setup](https://github.com/AI-Maker-Space/Interactive-Dev-Environment-for-AI-Engineers) file
 - Clone the AIEO1 repo into your local folder by following the steps in [Setting up local repo](https://github.com/AI-Maker-Space/AIE8/tree/main/00_Setting%20Up%20Git)
-- Open Cursor, create your new virtual environment, install necessary packages with `pip install -r requirements.txt`
+- Open Cursor, create your new virtual environment, install necessary packages with `uv sync`
 
 **🚀 Short Git Development Setup (Quick Reference - Used in Our Demo):**
 
