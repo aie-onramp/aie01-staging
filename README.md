@@ -81,7 +81,8 @@ Your peer supporters will be your guides throughout the cohort! Learn more about
 
 - [Julie Berlin](https://www.notion.so/Julie-Berlin-264cd547af3d805884c0d9710095cac1?pvs=21), available 8:00-9:00 PM ET on Wednesdays
 - [Nooshin Hashemi](https://www.notion.so/Nooshin-Hashemi-2a0cd547af3d800daee0da5645f9a6c4), available 6:30-7:30 PM ET on Tuesdays
-- [Raj Kumar](https://www.notion.so/1c8cd547af3d8091bad4c169a5a11819?pvs=21), available 11:30 AM-12:30 PM ET on Wednesdays 
+- [Raj Kumar](https://www.notion.so/1c8cd547af3d8091bad4c169a5a11819?pvs=21), available 11:30 AM-12:30 PM ET on Wednesdays
+- [JJ Ovalle](https://www.notion.so/Juan-Ovalle-4508b519a332484d8736ab243aa9fd00), available TBD
 
 🎉 You'll also notice office hours from instructors, peer supporters, and more!
 
