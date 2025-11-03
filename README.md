@@ -80,7 +80,7 @@ Your peer supporters will be your guides throughout the cohort! Learn more about
 **Additional 1:1 Peer Support Staff (Office Hours Only)**
 
 - [Julie Berlin](https://www.notion.so/Julie-Berlin-264cd547af3d805884c0d9710095cac1?pvs=21), available 8:00-9:00 PM ET on Wednesdays
-- [Nooshin Hashemi](https://www.linkedin.com/in/nooshinhashemi/), available 6:30-7:30 PM ET on Tuesdays
+- [Nooshin Hashemi](https://www.notion.so/Nooshin-Hashemi-2a0cd547af3d800daee0da5645f9a6c4), available 6:30-7:30 PM ET on Tuesdays
 - [Raj Kumar](https://www.notion.so/1c8cd547af3d8091bad4c169a5a11819?pvs=21), available 11:30 AM-12:30 PM ET on Wednesdays 
 
 🎉 You'll also notice office hours from instructors, peer supporters, and more!
