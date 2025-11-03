@@ -1,73 +1,96 @@
-# The AI Engineering Onramp, Cohort 1
+# 🛹 The AI Engineer Onramp Course Home Page
 
-Welcome to **The AI Engineering Onramp**, a preparatory course designed to get you ready for [The AI Engineering Bootcamp](https://maven.com/aimakerspace/ai-eng-onramp) from Maven.
+👋 Welcome to [The AI Engineer Onramp: From Vibes to AI-Assisted Development with Cursor 2.0](https://maven.com/aimakerspace/ai-eng-onramp)
 
-This onramp course is specifically designed to prepare you for **The AIE Challenge** and ensure you have the foundational skills necessary to succeed in the fast-paced, demanding environment of The AI Engineering Bootcamp. Our goal is to build your confidence and capabilities in software engineering fundamentals, AI-assisted development workflows, and the technical foundations needed to keep pace with our flagship program.
+This course is designed to help you get set up like a professional AI Engineer so that *you're ready to build production LLM applications in 2026*.
 
-## 🧑‍💻 What is [AI Engineering](https://maven.com/aimakerspace/ai-eng-bootcamp)?
+## 🗓️ Class Dates
 
-AI Engineering refers to the industry-relevant skills that data science and engineering teams need to successfully **build, deploy, operate, and improve Large Language Model (LLM) applications in production environments**.
+If you'd like, you can **[access the Zoom classroom directly now](https://us02web.zoom.us/j/81979109558).** 
 
-In practice, as of the Fall of 2025, this requires understanding both prototyping and production deployments in the following ways.
+Class is held from 12:00 to 1:30 PM on Mondays, and will open promptly at 12:00:00 PM ET. **You should have received hard calendar invites for each class period**, according to the following schedule 👇
 
-During the *prototyping* phase, Prompt Engineering, Retrieval Augmented Generation (RAG), Agents, and Fine-Tuning are all necessary tools to be able to understand and leverage. Prototyping includes:
+- **November 3:** 🎧 LLM APIs & AI-Assisted Development
+- **November 10:** 🖼️ Front End UI Development & Deployment of LLM Applications
+- **November 17:** ⚡ Back End Web App Development & Deployment of LLM Applications
+- **November 24:** ↔️ End-to-End LLM Application Development with Coding Agents
 
-1. Building RAG Applications
+# 🛣️ Getting Started
 
-2. Building with Agent and Multi-Agent Frameworks
+1. 📅 **Calendar**: Follow [The AI Engineer Bootcamp, Cohort 1 Calendar](https://calendar.google.com/calendar/u/0?cid=Y181ZWQ0ZTY5OWViMTU0Yjg0YzVmMjAwOGZjM2Y5ODYxZWFlODA1OTA4MjM1NWQ1ODI0Y2NhYzI0YzQ4ZGQ4MGJkQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)! Check for office hours that fit your schedule!
+2. 🌏 **Discord**: Join the AIM Discord [here](https://discord.gg/uWDzDtz8). *Send your Discord username to **`courseops@aimakerspace.io` with the subject line "AIEO1 Discord Access" ***. Then ensure you have access to AIEO1-specific, private Discord Channels described below (described below!).
+3. ⚠️ **Prerequisites**: Set up your initial [dev environment](https://github.com/AI-Maker-Space/Interactive-Dev-Environment-for-AI-Engineers), [OpenAI API Key](https://platform.openai.com/login), and [Google Colab](https://colab.google/) account. Also, download [Cursor](https://cursor.com/download). 
 
-3. Deploying LLM Prototype Applications to Users
+# 🧑‍🎓 Course Materials
 
-When *productionizing* LLM application prototypes, there are many important aspects ensuring helpful, harmless, honest, reliable, and scalable solutions for your customers or stakeholders. Productionizing includes:
+Our [syllabus and detailed schedule](https://www.notion.so/The-AI-Engineering-Bootcamp-Cohort-8-Course-Schedule-Curriculum-22acd547af3d80198453e0be6139ec0d?pvs=21) will guide us through the course.
 
-1. Evaluating RAG and Agent Applications
+For each session, you can find everything you need directly in the GitHub README.md for that session. This includes:
 
-2. Improving Search and Retrieval Pipelines for Production
+- 📛 Required Tooling & Account Setup
+- 🧑‍💻 Recommended Pre-Work!
+- ⏺️ Recordings
+- 🖼️ Slide Decks
+- ⌨️ Assignment Code
+- 📜 Assignment Submission Forms
 
-3. Improving Agent and Multi-Agent Applications
+## 🧰 Tooling
 
-4. Monitoring Production KPIs for LLM Applications
+**The stack** we'll use is made up of best-practice tools:
 
-5. Setting up Production Endpoints for Open-Source LLMs and Embedding Models
-
-6. Building LLM Applications with Scalable, Production-Grade Components
-
-7. Understanding and Building with Agent Protocols
-
-## 🎯 The Ideal AI Engineering Onramp Student
-
-Our flagship 10-week course, [The AI Engineering Bootcamp](https://maven.com/aimakerspace/ai-eng-bootcamp), has had significant success helping students to become AI Engineers and to achieve their goals in the past two years since we launched in January of 2024.
-
-[The AI Engineering Bootcamp](https://aimakerspace.io/the-ai-engineering-bootcamp/) is an ever-evolving course that keeps pace with the industry.
-
-If you're serious about becoming an AI-Assisted developer, you're in the right place.
-
-However, there have been many students who are ***unsure*** of whether or not they want to pursue engineering and development, or how deeply they'd like to pursue it (e.g., product managers, data scientists, SMEs, former engineers who have become managers and have not written code daily since the rise of AI-assisted development, etc.).
-
-If you fall into this category, this might be a good course for you to test the waters.
-
-However, that's not who the course is built for.
-
-The second contingent of people who we are keen to serve in The AI Engineer Onramp: Vibe-Coding to AI-Assisted development are those who ***are sure*** that they're committed to becoming AI Engineers; they simply do not yet have the reps in on software engineering to be able to come up to speed quickly enough to keep pace with such a demanding course as The AI Engineering Bootcamp.
-
-To clarify, this course is ideal for you if:
-
-- You are committed to becoming an AI Engineer
-- You need to build foundational software engineering skills
-- You want to gain experience with AI-assisted development tools and workflows
-- You're ready to put in the work to catch up to the pace of The AI Engineering Bootcamp
+- 🐙 Version Control: [GitHub](https://github.com/)
+- 🐚 CLI: Shell for Unix-like OS ([WSL](https://ubuntu.com/desktop/wsl))
+- 📦 Package & Env Management: [uv](https://docs.astral.sh/uv/)
+- 📓 Python Notebooks: [Jupyter](https://jupyter.org/) / [Colab](https://colab.google/)
+- 🖱️ Code Editor: [Cursor](https://www.cursor.com/)
+- 🤖 CLI Coding Agent: [Cursor CLI](https://cursor.com/docs/cli/overview)
+- 🧠 LLM: [OpenAI GPT models](https://platform.openai.com/docs/models)
+- 🎨 User Interface: Vibe-coded with [Next.js](https://nextjs.org/)
+- ⚡ Web App Framework: [FastAPI](https://fastapi.tiangolo.com/)
+- ☁️ Deployment: [Render](https://render.com/docs)
 
 
+# 🌐 Discord
 
-# 📚 About
+When it comes to Discord, there is a lot to explore. However, if you're trying to get down to brass tax for the course, focus on these aspects:
 
-This GitHub repository is your gateway to mastering the art of AI Engineering.  ***All assignments, that our voluntary, for the AI Engineering Onramp course will be released here for your building, shipping, and sharing adventures!***
+- [Introductions](https://discord.com/channels/1135695983720792216/1169489404511920139) (public - drop yours!)
+- [build-ship-share-🏗-🚢-🚀](https://discord.com/channels/1135695983720792216/1135700320517890131) (for when you've built and shipped and are ready to share)
 
-# 🙏 Contributions
+**#️⃣ AIEO1 Channels**
 
-We believe in the power of collaboration. Contributions, ideas, and feedback are highly encouraged! Let's build the ultimate resource for AI Engineering together.
+- [aieo1-announcements](https://discord.com/channels/1135695983720792216/1432407823404240977) (for instructor and peer support announcements)
+- [aieo1-general](https://discord.com/channels/1135695983720792216/1432408792481398814) (treat as cohort misc!)
+- [aieo1-questions](https://discord.com/channels/1135695983720792216/1432409053010595840) (use this channel to get your **questions** answered!)
+- [aieo1-lounge](https://discord.com/channels/1135695983720792216/1432409153606778891) (You can hang out with instructors, peer supporters, and other students!)
+- [aieo1-office-hours](https://discord.com/channels/1135695983720792216/1432409248410632242) (Join for office hours schedule is on the Cohort calendar)
 
-Please reach out with any questions or suggestions.
+# 🧑‍🤝‍🧑 Peer Supporters
 
-Happy coding! 🚀🚀🚀
+Your peer supporters will be your guides throughout the cohort! Learn more about each peer supporter peer supporter is listed, along with what they Peer Supporter [Journey Group](https://curiouslionlearning.com/why-group-learning/#Two_Types_of_Groups_Journey_and_Destination) name!
 
+**[Journey Group](https://curiouslionlearning.com/why-group-learning/#Two_Types_of_Groups_Journey_and_Destination) Leads**
+
+- [Mike Dean](https://www.notion.so/Mike-Dean-17bcd547af3d807a8526fc8a24363b7a?pvs=21), GitMasters, available at 12 PM ET on Tuesdays
+- [Todd Deshane](https://www.notion.so/Todd-Deshane-c18ecdb96e2c4afaafaa7aad522fa1a3?pvs=21), Merge AI, available at 9 PM ET on Sundays
+- [Laura Funderburk](https://www.notion.so/Laura-Funderburk-1d1cd547af3d80c98f77f27929312add?pvs=21), Agentic Alliance, available 2:30 PM ET on Thursdays
+- [Mani Sarkar](https://www.linkedin.com/in/mani-sarkar/), The Sandbox, available at 6 PM ET on Thursdays
+- [Don Branson](https://www.notion.so/Don-Branson-1c8cd547af3d80e9a221d62d2ddc4036?pvs=21), Distilled Reasoning, available {TBD}
+
+**Additional 1:1 Peer Support Staff (Office Hours Only)**
+
+- [Julie Berlin](https://www.notion.so/Julie-Berlin-264cd547af3d805884c0d9710095cac1?pvs=21), available 8:00-9:00 PM ET on Wednesdays
+- [Nooshin Hashemi](https://www.linkedin.com/in/nooshinhashemi/), available 6:30-7:30 PM ET on Tuesdays
+- [Raj Kumar](https://www.notion.so/1c8cd547af3d8091bad4c169a5a11819?pvs=21), available {TBD}
+
+🎉 You'll also notice office hours from instructors, peer supporters, and more!
+
+# 🙏 On GitHub Contributions
+
+This GitHub repository is your gateway to going beyond vibe coding and developing your own unique art of AI-assisted development.
+
+We believe in the power of collaboration. Contributions, ideas, and feedback are highly encouraged! Let's build the ultimate resource for getting on the path to AI Engineering together.
+
+Please open up a PR or reach out with any questions or suggestions.
+
+Now let's get building 🏗️, shipping 🚢, and sharing 🚀!
