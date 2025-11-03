@@ -71,18 +71,19 @@ Your peer supporters will be your guides throughout the cohort! Learn more about
 
 **[Journey Group](https://curiouslionlearning.com/why-group-learning/#Two_Types_of_Groups_Journey_and_Destination) Leads**
 
-- [Mike Dean](https://www.notion.so/Mike-Dean-17bcd547af3d807a8526fc8a24363b7a?pvs=21), GitMasters, available at 12 PM ET on Tuesdays
-- [Todd Deshane](https://www.notion.so/Todd-Deshane-c18ecdb96e2c4afaafaa7aad522fa1a3?pvs=21), Merge AI, available at 9 PM ET on Sundays
 - [Laura Funderburk](https://www.notion.so/Laura-Funderburk-1d1cd547af3d80c98f77f27929312add?pvs=21), Agentic Alliance, available 2:30 PM ET on Thursdays
 - [Mani Sarkar](https://www.notion.so/Mani-Sarkar-2a0cd547af3d80179c39f0beddb94005), The Sandbox, available at 6 PM ET on Thursdays
+- [Mike Dean](https://www.notion.so/Mike-Dean-17bcd547af3d807a8526fc8a24363b7a?pvs=21), GitMasters, available at 12 PM ET on Tuesdays
 - [Don Branson](https://www.notion.so/Don-Branson-1c8cd547af3d80e9a221d62d2ddc4036?pvs=21), Distilled Reasoning, available {TBD}
+- [Raj Kumar](https://www.notion.so/1c8cd547af3d8091bad4c169a5a11819?pvs=21), Matrix Mavens, available 11:30 AM-12:30 PM ET on Wednesdays
 
-**Additional 1:1 Peer Support Staff (Office Hours Only)**
+**Additional 1:1 Peer Support Staff**
 
-- [Julie Berlin](https://www.notion.so/Julie-Berlin-264cd547af3d805884c0d9710095cac1?pvs=21), available 8:00-9:00 PM ET on Wednesdays
-- [Nooshin Hashemi](https://www.notion.so/Nooshin-Hashemi-2a0cd547af3d800daee0da5645f9a6c4), available 6:30-7:30 PM ET on Tuesdays
-- [Raj Kumar](https://www.notion.so/1c8cd547af3d8091bad4c169a5a11819?pvs=21), available 11:30 AM-12:30 PM ET on Wednesdays
+- [Todd Deshane](https://www.notion.so/Todd-Deshane-c18ecdb96e2c4afaafaa7aad522fa1a3?pvs=21), 1:1 Support Lead, available at 9 PM ET on Sundays
 - [JJ Ovalle](https://www.notion.so/Juan-Ovalle-4508b519a332484d8736ab243aa9fd00), available TBD
+- [Julie Berlin](https://www.notion.so/Julie-Berlin-264cd547af3d805884c0d9710095cac1?pvs=21), available 8:00-9:00 PM ET on Wednesdays *Office Hours Only*
+- [Nooshin Hashemi](https://www.notion.so/Nooshin-Hashemi-2a0cd547af3d800daee0da5645f9a6c4), available 6:30-7:30 PM ET on Tuesdays *Office Hours Only*
+
 
 🎉 You'll also notice office hours from instructors, peer supporters, and more!
 
