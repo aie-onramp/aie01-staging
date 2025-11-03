@@ -7,9 +7,9 @@
 
 ### [Quicklinks](https://github.com/AI-Maker-Space/AIE8/tree/main/00_AIM_Quicklinks)
 
-| 📰 Session Sheet | ⏺️ Recording     | 🖼️ Slides        | 👨‍💻 Repo         | 📁 Feedback       |
+| ⏺️ Recording     | 🖼️ Slides        | 👨‍💻 Repo         | 📁 Feedback       |
 |:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|
-| [Session 1: LLM APIs & AI-Assisted Development](https://www.notion.so/Session-1-Introduction-and-Vibe-Check-263cd547af3d81869041ccc46523f1ec) |[Recording!](https://us02web.zoom.us/rec/share/AZEoQtJn03hZUBXoaAUT9I1Nx7sSdsjZ4n5ll8TTfCGQsVrBi709FLQLXwwdCCxD.2YqwpkoZhDDnHVKK) (Y&W@%PS3) | [Session 1 Slides](https://www.canva.com/design/DAGya0dMFhM/I4kYi9Y-Ec_jMtoq0aq4-g/edit?utm_content=DAGya0dMFhM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) | You are here! | [AIEO1 Feedback 9/9](https://forms.gle/GgFqgEkYPQ5a3yHj7)
+|Session 1 Recording Coming Soon | Session 1 Slides Coming Soon | You are here! | Session 1 Feedback Form Coming Soon!
 
 <p align="center"><img src="Gitflow_visualization.png" alt="Gitflow Visualization" width="800px" /></p>
 
