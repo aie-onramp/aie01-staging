@@ -1,4 +1,4 @@
-# 🤝 Breakout Room #2: Multi-Agent Development Workflow
+# 🤝 Assignment: Multi-Agent Development Workflow
 
 ## 📚 Table of Contents
 
@@ -291,74 +291,6 @@ Create and merge at least **3 different feature branches**, each implementing a 
 ✅ Verify deployment on Vercel  
 
 ---
-
-## 💅 Example: "Hot Mess Tracker" App
-
-> 🌐 **Live Demo:** You can view the deployed app here: [https://v0-hot-mess-tracker-app.vercel.app/](https://v0-hot-mess-tracker-app.vercel.app/)
-
-Here's the complete prompt we'll use in class for our example app:
-
-### App Prompt for v0:
-
-```
-Create me an app: "Hot Mess Tracker"
-
-A "self-report" app for chaos level of your day.
-
-Concept:
-- Sliders: "Late to class," "Lost charger," "Sent risky text," "Procrastination"
-- Animated emoji face reacts as your "hot mess score" increases
-- Saves your results and gives sarcastic motivational message like: "At least you're consistently chaotic. We love that for you"
-
-Design Requirements:
-- Use the website style similar to: https://www.canva.com/templates/EAFSoi3Ltnc/
-- Similar style background
-- For buttons, use this style:
-
-import { ArrowUpIcon } from "lucide-react"
-import { Button } from "@/components/ui/button"
-
-export function ButtonDemo() {
-  return (
-    <div className="flex flex-wrap items-center gap-2 md:flex-row">
-      <Button variant="outline">Button</Button>
-      <Button variant="outline" size="icon" aria-label="Submit">
-        <ArrowUpIcon />
-      </Button>
-    </div>
-  )
-}
-
-Color Scheme (for Tailwind CSS):
-- murrey: #89023e (hsla(333, 97%, 27%, 1))
-- old-rose: #cc7178 (hsla(355, 47%, 62%, 1))
-- misty-rose: #ffd9da (hsla(358, 100%, 93%, 1))
-- misty-rose-2: #f3e1dd (hsla(11, 48%, 91%, 1))
-- tea-green: #c7d9b7 (hsla(92, 31%, 78%, 1))
-```
-
-### Tailwind Color Configuration
-
-Add these colors to your `tailwind.config.js`:
-
-```javascript
-module.exports = {
-  theme: {
-    extend: {
-      colors: {
-        'murrey': '#89023e',
-        'old-rose': '#cc7178',
-        'misty-rose': '#ffd9da',
-        'misty-rose-2': '#f3e1dd',
-        'tea-green': '#c7d9b7',
-      }
-    }
-  }
-}
-```
-
----
-
 ## 🎓 Tips for Success
 
 - **Take your time** with each step - don't rush!

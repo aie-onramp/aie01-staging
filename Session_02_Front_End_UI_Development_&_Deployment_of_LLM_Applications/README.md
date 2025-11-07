@@ -13,13 +13,13 @@
 
 In today's assignment, we'll be creating modern web applications using AI-powered development tools and deploying them to production.
 
-- 🤝 [Breakout Room #1](./BreakoutRoom1.md)
+- 🤝 [Breakout Room](./BreakoutRoom1.md)
     - Set up Cursor with GitFlow rules and personal coding styles
     - Create a frontend application using v0.dev
     - Download, customize, and run the app locally
     - Push to GitHub and deploy to Vercel
 
-- 🤝 [Breakout Room #2](./BreakoutRoom2.md)
+- 🤝 [Assignment](./Assignment.md)
     - Implement multi-agent workflow using feature branches
     - Work on multiple features simultaneously
     - Practice GitFlow merging strategies

@@ -19,10 +19,10 @@ By the end of this assignment, you'll have created, customized, and deployed you
 - [What Is This Assignment?](#what-is-this-assignment)
 - [Prerequisites](#prerequisites)
 - [Overview](#overview)
-- [Step 1: Set Up Cursor Rules 📝](#step-1-set-up-cursor-rules-)
-- [Step 2: Brainstorm Your Idea 💡](#step-2-brainstorm-your-idea-)
-- [Step 3: Get Your Design Resources 🎨](#step-3-get-your-design-resources-)
-- [Step 4: Create Your v0 Prompt 🎬](#step-4-create-your-v0-prompt-)
+- [Step 1: Brainstorm Your Idea 💡](#step-2-brainstorm-your-idea-)
+- [Step 2: Get Your Design Resources 🎨](#step-3-get-your-design-resources-)
+- [Step 3: Create Your v0 Prompt 🎬](#step-4-create-your-v0-prompt-)
+- [Step 4: Set Up Cursor Rules 📝](#step-1-set-up-cursor-rules-)
 - [Step 5: Create Virtual Environment 🏗️](#step-5-create-virtual-environment-️)
 - [Step 6: Download Your App from v0 📥](#step-6-download-your-app-from-v0-)
 - [Step 7: Generate README with Cursor 🤖](#step-7-generate-readme-with-cursor-)
@@ -39,6 +39,7 @@ Before we begin, make sure you have:
 - [Cursor](https://cursor.sh/) installed
 - A GitHub account
 - A Vercel account (free tier works great!)
+- Install the Vercel CLI in Cursor: `npm install -g vercel`
 - Node.js installed on your computer (use Mac: 'brew install node', Windows: 'sudo apt install nodejs npm')
 
 ---
@@ -48,47 +49,14 @@ Before we begin, make sure you have:
 ## Overview
 
 In this session, we'll:
-1. **Showcase Cursor rules** by adding GitFlow rules and personal cursor rules (coding styles) to improve collaboration
-2. **Showcase v0** - create a vibecode frontend using personal practices
+1. **Showcase v0** - create a vibecode frontend using personal practices
+2. **Showcase Cursor rules** by adding GitFlow rules and personal cursor rules (coding styles) to improve collaboration
 3. **Download and showcase locally** - run the app on your machine
 4. **Push to GitHub and deploy** - get your app live on the web
 
 ---
 
-## Step 1: Set Up Cursor Rules 📝
-
-### 1.1 Add GitFlow Rules
-
-Set up GitFlow rules to maintain clean version control:
-
-1. Open your project in Cursor
-2. Navigate to `gitflow_rules.md` (or create it if it doesn't exist)
-3. Add your project-specific GitFlow rules
-4. This helps maintain clean version control throughout development
-
-**Example GitFlow rules:**
-- Branch naming conventions
-- Commit message formats
-- Merge strategies
-- Release workflow
-
-### 1.2 Add Personal Cursor Rules (Coding Styles)
-
-Set up coding style rules to improve collaboration:
-
-1. Create or update `cursor_rules.md` in your project
-2. Add coding standards such as:
-   - Code structure & organization
-   - Naming conventions (camelCase, PascalCase, UPPER_SNAKE_CASE)
-   - Import paths
-   - File size limits
-   - Component organization
-
-**Why this matters:** These rules help Cursor understand your coding preferences and maintain consistency across your project, making collaboration smoother.
-
----
-
-## Step 2: Brainstorm Your Idea 💡
+## Step 1: Brainstorm Your Idea 💡
 
 First, you need an idea for your app! You have two options:
 
@@ -103,7 +71,7 @@ First, you need an idea for your app! You have two options:
 
 ---
 
-## Step 3: Get Your Design Resources 🎨
+## Step 2: Get Your Design Resources 🎨
 
 Now it's time to gather design inspiration and components. You have two paths:
 
@@ -130,7 +98,7 @@ Now it's time to gather design inspiration and components. You have two paths:
 
 ---
 
-## Step 4: Create Your v0 Prompt 🎬
+## Step 3: Create Your v0 Prompt 🎬
 
 Now combine everything into a detailed prompt for v0:
 
@@ -153,6 +121,38 @@ Color scheme: [your colors from Coolors]
 
 ---
 
+## Step 4: Set Up Cursor Rules 📝
+
+### 4.1 Add GitFlow Rules
+
+Set up GitFlow rules to maintain clean version control:
+
+1. Open your project in Cursor
+2. Navigate to `gitflow_rules.md` (or create it if it doesn't exist)
+3. Add your project-specific GitFlow rules
+4. This helps maintain clean version control throughout development
+
+**Example GitFlow rules:**
+- Branch naming conventions
+- Commit message formats
+- Merge strategies
+- Release workflow
+
+### 4.2 Add Personal Cursor Rules (Coding Styles)
+
+Set up coding style rules to improve collaboration:
+
+1. Create or update `cursor_rules.md` in your project
+2. Add coding standards such as:
+   - Code structure & organization
+   - Naming conventions (camelCase, PascalCase, UPPER_SNAKE_CASE)
+   - Import paths
+   - File size limits
+   - Component organization
+
+**Why this matters:** These rules help Cursor understand your coding preferences and maintain consistency across your project, making collaboration smoother.
+
+---
 ## Step 5: Create Virtual Environment 🏗️
 
 Set up your development environment:
@@ -239,6 +239,73 @@ Your app should now be running! Look for a local URL (usually `http://localhost:
 7. Wait a few minutes, and your app will be live! 🎉
 
 **Your app is now deployed and accessible to the world!**
+
+---
+
+## 💅 Example: "Hot Mess Tracker" App
+
+> 🌐 **Live Demo:** You can view the deployed app here: [https://v0-hot-mess-tracker-app.vercel.app/](https://v0-hot-mess-tracker-app.vercel.app/)
+
+Here's the complete prompt we'll use in class for our example app:
+
+### App Prompt for v0:
+
+```
+Create me an app: "Hot Mess Tracker"
+
+A "self-report" app for chaos level of your day.
+
+Concept:
+- Sliders: "Late to class," "Lost charger," "Sent risky text," "Procrastination"
+- Animated emoji face reacts as your "hot mess score" increases
+- Saves your results and gives sarcastic motivational message like: "At least you're consistently chaotic. We love that for you"
+
+Design Requirements:
+- Use the website style similar to: https://www.canva.com/templates/EAFSoi3Ltnc/
+- Similar style background
+- For buttons, use this style:
+
+import { ArrowUpIcon } from "lucide-react"
+import { Button } from "@/components/ui/button"
+
+export function ButtonDemo() {
+  return (
+    <div className="flex flex-wrap items-center gap-2 md:flex-row">
+      <Button variant="outline">Button</Button>
+      <Button variant="outline" size="icon" aria-label="Submit">
+        <ArrowUpIcon />
+      </Button>
+    </div>
+  )
+}
+
+Color Scheme (for Tailwind CSS):
+- murrey: #89023e (hsla(333, 97%, 27%, 1))
+- old-rose: #cc7178 (hsla(355, 47%, 62%, 1))
+- misty-rose: #ffd9da (hsla(358, 100%, 93%, 1))
+- misty-rose-2: #f3e1dd (hsla(11, 48%, 91%, 1))
+- tea-green: #c7d9b7 (hsla(92, 31%, 78%, 1))
+```
+
+### Tailwind Color Configuration
+
+Add these colors to your `tailwind.config.js`:
+
+```javascript
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        'murrey': '#89023e',
+        'old-rose': '#cc7178',
+        'misty-rose': '#ffd9da',
+        'misty-rose-2': '#f3e1dd',
+        'tea-green': '#c7d9b7',
+      }
+    }
+  }
+}
+```
 
 ---
 ## 🏗️ Activity #1:
