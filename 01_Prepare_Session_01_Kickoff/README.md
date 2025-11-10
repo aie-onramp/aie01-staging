@@ -1,4 +1,4 @@
-# 🪂 Overview
+# 🪂 Session 1 Overview: Kickoff & AI-Assisted Interactive Development Environment Setup
 
 In session 1, we’ll kick off the cohort! You’ll get introduced to **AI Makerspace** and to how we operate **The AI Engineer Onramp Bootcamp**. You’ll also meet the staff who will guide your journey (Instructors, Peer Supporters) and the people who will be on the same adventure (your Journey Group)!
 
