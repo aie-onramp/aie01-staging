@@ -5,9 +5,9 @@
 
 ## <h1 align="center" id="heading">Session 02: Front End UI Development & Deployment of LLM Applications</h1>
 
-| 🤓 Pre-work | 📰 Session Sheet | ⏺️ Recording     | 🖼️ Slides        | 👨‍💻 Repo         | 📝 Homework      | 📁 Feedback       |
-|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|
-| Coming Soon | Coming Soon | Coming Soon | Coming Soon | You are here! | Coming Soon | Coming Soon |
+| 🤓 Pre-Class | ⏺️ Recordings| 🖼️ Slide| 👨‍💻 Repos| 📄 Homework| 📁 Feedback| 
+|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|
+|[Prepare Frontend](https://github.com/AI-Maker-Space/AIEO1/tree/main/02_Prepare_Session_02_Frontend) | Coming Soon | Coming Soon | Coming Soon | Coming Soon | Coming Soon |
 
 # Build 🏗️
 
