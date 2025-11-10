@@ -37,8 +37,8 @@ By the end of this assignment, you'll have created, customized, and deployed you
 
 Before we begin, make sure you have:
 - [Cursor](https://cursor.sh/) installed
-- A GitHub account
-- A Vercel account (free tier works great!)
+- A [GitHub](http://github.com/) account
+- A [Vercel](https://vercel.com/) account (free tier works great!)
 - Install the Vercel CLI in Cursor: `npm install -g vercel`
 - Node.js installed on your computer (use Mac: `brew install node`, Windows: `sudo apt install nodejs npm`)
 
