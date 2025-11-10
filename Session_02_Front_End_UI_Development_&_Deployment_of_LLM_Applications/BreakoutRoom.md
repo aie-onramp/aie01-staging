@@ -40,11 +40,11 @@ Before we begin, make sure you have:
 - A GitHub account
 - A Vercel account (free tier works great!)
 - Install the Vercel CLI in Cursor: `npm install -g vercel`
-- Node.js installed on your computer (use Mac: 'brew install node', Windows: 'sudo apt install nodejs npm')
+- Node.js installed on your computer (use Mac: `brew install node`, Windows: `sudo apt install nodejs npm`)
 
 ---
 
-# 🤝 Breakout Room #1: Creating and Deploying Your Frontend Application
+# 🤝 Breakout Room: Creating and Deploying Your Frontend Application
 
 ## Overview
 
