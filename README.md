@@ -23,7 +23,7 @@ Class is held from 12:00 to 1:30 PM on Mondays, and will open promptly at 12:00:
 
 # 🧑‍🎓 Course Materials
 
-Our [syllabus and detailed schedule](bit.ly/aieo1-curr) will guide us through the course.
+Our [syllabus and detailed schedule](https://bit.ly/aieo1-curr) will guide us through the course.
 
 For each session, you can find everything you need directly in the GitHub README.md for that session. This includes:
 
