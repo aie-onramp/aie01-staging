@@ -13,13 +13,13 @@
 
 In today's assignment, we'll be creating modern web applications using AI-powered development tools and deploying them to production.
 
-- 🤝 [Breakout Room](./BreakoutRoom.md)
+- 🤝 [Breakout Room](https://github.com/AI-Maker-Space/AIEO1-Staging/blob/main/Session_02_Front_End_UI_Development_%26_Deployment_of_LLM_Applications/BreakoutRoom.md)
     - Set up Cursor with GitFlow rules and personal coding styles
     - Create a frontend application using v0.dev
     - Download, customize, and run the app locally
     - Push to GitHub and deploy to Vercel
 
-- 🤝 [Assignment](./Assignment.md)
+- 🤝 [Assignment](https://github.com/AI-Maker-Space/AIEO1-Staging/blob/main/Session_02_Front_End_UI_Development_%26_Deployment_of_LLM_Applications/Assignment.md)
     - Implement multi-agent workflow using feature branches
     - Work on multiple features simultaneously
     - Practice GitFlow merging strategies

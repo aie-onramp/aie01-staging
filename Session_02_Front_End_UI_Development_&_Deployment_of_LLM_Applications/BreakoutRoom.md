@@ -1,8 +1,8 @@
-Welcome! This guide will walk you through two demos that showcase modern development workflows using v0, Cursor, and best practices.
+Welcome! This guide will walk you through two demos that showcase modern development workflows using v0, Cursor, and best practices. We’ll complete these together during the breakout session, and you can continue on your own afterward if we don’t finish.
 
-## What Is This Assignment?
+## What You'll Be Working On?
 
-This assignment teaches you how to build and deploy modern web applications using AI-powered development tools. You'll learn to leverage v0 (an AI tool for generating frontend code), Cursor IDE (an AI-enhanced code editor), and industry-standard deployment practices with GitHub and Vercel.
+We will build and deploy modern web applications using AI-powered development tools. You'll learn to leverage v0 (an AI tool for generating frontend code), Cursor IDE (an AI-enhanced code editor), and industry-standard deployment practices with GitHub and Vercel.
 
 **You will master:**
 - **AI-Powered Development:** Use v0 to generate complete frontend applications from natural language prompts
@@ -10,25 +10,24 @@ This assignment teaches you how to build and deploy modern web applications usin
 - **Multi-Agent Development:** Simulate parallel development workflows by working on multiple features simultaneously
 - **Full Deployment Pipeline:** Push code to GitHub and deploy live applications to Vercel with automatic CI/CD
 
-By the end of this assignment, you'll have created, customized, and deployed your own live web application while learning modern development practices that mirror real-world team workflows. The hands-on exercises progress from basic UI customization to advanced multi-branch development, giving you practical experience with the tools and techniques used in professional software development.
+By the end, you'll have created, customized, and deployed your own live web application while learning modern development practices that mirror real-world team workflows. The hands-on exercises progress from basic UI customization to advanced multi-branch development, giving you practical experience with the tools and techniques used in professional software development.
 
 ---
 
 ## 📚 Table of Contents
 
-- [What Is This Assignment?](#what-is-this-assignment)
+- [What You'll Be working On?](#what-you'll-be-working-on)
 - [Prerequisites](#prerequisites)
 - [Overview](#overview)
-- [Step 1: Brainstorm Your Idea 💡](#step-2-brainstorm-your-idea-)
-- [Step 2: Get Your Design Resources 🎨](#step-3-get-your-design-resources-)
-- [Step 3: Create Your v0 Prompt 🎬](#step-4-create-your-v0-prompt-)
-- [Step 4: Set Up Cursor Rules 📝](#step-1-set-up-cursor-rules-)
-- [Step 5: Create Virtual Environment 🏗️](#step-5-create-virtual-environment-️)
-- [Step 6: Download Your App from v0 📥](#step-6-download-your-app-from-v0-)
-- [Step 7: Generate README with Cursor 🤖](#step-7-generate-readme-with-cursor-)
-- [Step 8: Set Up and Run Locally 🏃](#step-8-set-up-and-run-locally-)
-- [Step 9: Push to GitHub 🐙](#step-9-push-to-github-)
-- [Step 10: Deploy to Vercel 🌐](#step-10-deploy-to-vercel-)
+- [Step 1: Brainstorm Your Idea 💡](#step-1-brainstorm-your-idea-)
+- [Step 2: Get Your Design Resources 🎨](#step-2-get-your-design-resources-)
+- [Step 3: Create Your v0 Prompt 🎬](#step-3-create-your-v0-prompt-)
+- [Step 4: Set Up Cursor Rules 📝](#step-4-set-up-cursor-rules-)
+- [Step 5: Download Your App from v0 📥](#step-5-download-your-app-from-v0-)
+- [Step 6: Generate README with Cursor 🤖](#step-6-generate-readme-with-cursor-)
+- [Step 7: Set Up and Run Locally 🏃](#step-7-set-up-and-run-locally-)
+- [Step 8: Push to GitHub 🐙](#step-8-push-to-github-)
+- [Step 9: Deploy to Vercel 🌐](#step-9-deploy-to-vercel-)
 - [🏗️ Activity #1](#️-activity-1)
 
 ---
@@ -52,7 +51,7 @@ In this session, we'll:
 1. **Showcase v0** - create a vibecode frontend using personal practices
 2. **Showcase Cursor rules** by adding GitFlow rules and personal cursor rules (coding styles) to improve collaboration
 3. **Download and showcase locally** - run the app on your machine
-4. **Push to GitHub and deploy** - get your app live on the web
+4. **Push to GitHub and deploy to Vercel** - get your app live on the web
 
 ---
 
@@ -153,17 +152,7 @@ Set up coding style rules to improve collaboration:
 **Why this matters:** These rules help Cursor understand your coding preferences and maintain consistency across your project, making collaboration smoother.
 
 ---
-## Step 5: Create Virtual Environment 🏗️
-
-Set up your development environment:
-
-1. Open Cursor's terminal
-2. Create a virtual environment (if using Python) or ensure Node.js is ready
-3. Navigate to your project directory
-
----
-
-## Step 6: Download Your App from v0 📥
+## Step 5: Download Your App from v0 📥
 
 1. In v0, after generating your app, click **"Download"**
 2. Copy the download command or use the provided link
@@ -172,7 +161,7 @@ Set up your development environment:
 
 ---
 
-## Step 7: Generate README with Cursor 🤖
+## Step 6: Generate README with Cursor 🤖
 
 Let Cursor help you create documentation:
 
@@ -183,21 +172,21 @@ Let Cursor help you create documentation:
 
 ---
 
-## Step 8: Set Up and Run Locally 🏃
+## Step 7: Set Up and Run Locally 🏃
 
-### 8.1 Navigate to App Directory
+### 7.1 Navigate to App Directory
 ```bash
 cd app
 ```
 
-### 8.2 Install Dependencies
+### 7.2 Install Dependencies
 ```bash
 npm install
 ```
 
 This installs all the packages your app needs to run.
 
-### 8.3 Run Your App Locally
+### 7.3 Run Your App Locally
 ```bash
 npm run dev
 ```
@@ -208,7 +197,7 @@ Your app should now be running! Look for a local URL (usually `http://localhost:
 
 ---
 
-## Step 9: Push to GitHub 🐙
+## Step 8: Push to GitHub 🐙
 
 1. Create a new repository on GitHub
 2. In Cursor terminal, initialize git (if not already done):
@@ -228,7 +217,7 @@ Your app should now be running! Look for a local URL (usually `http://localhost:
 
 ---
 
-## Step 10: Deploy to Vercel 🌐
+## Step 9: Deploy to Vercel 🌐
 
 1. Go to [Vercel](https://vercel.com)
 2. Sign in with your GitHub account
@@ -307,6 +296,32 @@ module.exports = {
 }
 ```
 
+---
+
+## 🛠️ Debugging: npm install errors (local or Vercel)
+
+If you encounter an `npm install` error:
+
+1. Install with legacy peer deps:
+   ```bash
+   npm install --legacy-peer-deps
+   ```
+2. Uninstall `vaul` (problematic peer dependency in some templates):
+   ```bash
+   npm uninstall vaul
+   ```
+3. Commit the resulting dependency updates:
+   ```bash
+   git add package.json package-lock.json
+   git commit -m "Fix install with --legacy-peer-deps and remove vaul"
+   git push
+   ```
+4. Redeploy on Vercel. The build should now pass.
+
+For local: if port 3000 is in use, free it first:
+```bash
+kill -9 $(lsof -ti tcp:3000)
+```
 ---
 ## 🏗️ Activity #1:
 

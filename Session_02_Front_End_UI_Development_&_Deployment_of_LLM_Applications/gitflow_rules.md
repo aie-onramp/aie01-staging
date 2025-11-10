@@ -13,7 +13,7 @@ cd yourrepo                                      # Changes directory to your new
 
 **Create the `develop` branch:**
 ```bash
-git checkout -b develop
+git switch -c develop
 git push -u origin develop
 ```
 
@@ -21,9 +21,9 @@ git push -u origin develop
 
 **Create a release branch from `develop`:**
 ```bash
-git checkout develop
+git switch develop
 git pull origin develop
-git checkout -b release/1.2.0
+git switch -c release/1.2.0
 git push -u origin release/1.2.0
 ```
 
@@ -38,7 +38,7 @@ git push
 
 **Merge the release branch into `main`:**
 ```bash
-git checkout main
+git switch main
 git pull origin main
 git merge --no-ff release/1.2.0
 git push origin main
@@ -54,7 +54,7 @@ git push origin v1.2.0
 
 **Keep bug fixes in sync:**
 ```bash
-git checkout develop
+git switch develop
 git pull origin develop
 git merge --no-ff release/1.2.0
 git push origin develop

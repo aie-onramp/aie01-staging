@@ -1,4 +1,5 @@
 # 🤝 Assignment: Multi-Agent Development Workflow
+We’ll be demoing this assignment during class, and you’re encouraged to test it out at home using your own use cases.
 
 ## 📚 Table of Contents
 
@@ -49,21 +50,21 @@ We'll create multiple branches to work on different features simultaneously, dem
 ### 2.1 Create Branch for Feature 1
 
 ```bash
-git checkout -b feature/add-new-component
+git switch -c feature/add-new-component
 git push -u origin feature/add-new-component
 ```
 
 ### 2.2 Create Branch for Feature 2
 
 ```bash
-git checkout -b feature/improve-styling
+git switch -c feature/improve-styling
 git push -u origin feature/improve-styling
 ```
 
 ### 2.3 Create Branch for Feature 3
 
 ```bash
-git checkout -b feature/add-animations
+git switch -c feature/add-animations
 git push -u origin feature/add-animations
 ```
 
@@ -77,7 +78,7 @@ git push -u origin feature/add-animations
 
 1. Switch to `feature/add-new-component`:
    ```bash
-   git checkout feature/add-new-component
+   git switch feature/add-new-component
    ```
 
 2. In Cursor, use AI to add a new component:
@@ -94,7 +95,7 @@ git push -u origin feature/add-animations
 
 1. Switch to `feature/improve-styling`:
    ```bash
-   git checkout feature/improve-styling
+   git switch feature/improve-styling
    ```
 
 2. In Cursor, improve styling:
@@ -111,7 +112,7 @@ git push -u origin feature/add-animations
 
 1. Switch to `feature/add-animations`:
    ```bash
-   git checkout feature/add-animations
+   git switch feature/add-animations
    ```
 
 2. In Cursor, add animations:
@@ -153,7 +154,7 @@ git push -u origin feature/add-animations
 
 1. Switch to main and pull latest:
    ```bash
-   git checkout main
+   git switch main
    git pull origin main
    ```
 
@@ -171,7 +172,7 @@ git push -u origin feature/add-animations
 
 1. Ensure main is up to date:
    ```bash
-   git checkout main
+   git switch main
    git pull origin main
    ```
 
@@ -189,7 +190,7 @@ git push -u origin feature/add-animations
 
 1. Ensure main is up to date:
    ```bash
-   git checkout main
+   git switch main
    git pull origin main
    ```
 
