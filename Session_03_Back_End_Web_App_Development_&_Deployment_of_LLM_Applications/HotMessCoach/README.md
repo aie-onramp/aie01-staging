@@ -10,7 +10,9 @@ This repo contains a few minimal FastAPI/Streamlit examples that progress from a
 ### Quick Start
 
 ```bash
-pip install fastapi "uvicorn[standard]" python-dotenv openai streamlit
+uv init
+uv add fastapi "uvicorn[standard]" python-dotenv openai streamlit
+uv sync
 export OPENAI_API_KEY=sk-...   # required for LLM variants
 ```
 
@@ -20,7 +22,7 @@ export OPENAI_API_KEY=sk-...   # required for LLM variants
   - Simple FastAPI app wrapped in HTML so you can test quickly.
   - Run:
     ```bash
-    uvicorn backend.STEP0_app_html:app --reload --host 0.0.0.0 --port 8000
+    uv run uvicorn backend.STEP0_app_html:app --reload --host 0.0.0.0 --port 8000
     ```
   - Open `http://127.0.0.1:8000`
 
@@ -28,7 +30,7 @@ export OPENAI_API_KEY=sk-...   # required for LLM variants
   - Simple LLM backend (no UI). Exposes `POST /chat`.
   - Run:
     ```bash
-    uvicorn backend.STEP1_app_llm:app --reload --host 0.0.0.0 --port 8000
+    uv run uvicorn backend.STEP1_app_llm:app --reload --host 0.0.0.0 --port 8000
     ```
   - Try Swagger: `http://127.0.0.1:8000/docs`
 
@@ -36,7 +38,7 @@ export OPENAI_API_KEY=sk-...   # required for LLM variants
   - LLM backend wrapped in a minimal HTML UI.
   - Run:
     ```bash
-    uvicorn backend.STEP2_app_llm_html:app --reload --host 0.0.0.0 --port 8000
+    uv run uvicorn backend.STEP2_app_llm_html:app --reload --host 0.0.0.0 --port 8000
     ```
   - Open `http://127.0.0.1:8000`
 
@@ -44,16 +46,16 @@ export OPENAI_API_KEY=sk-...   # required for LLM variants
   - Streamlit UI for a nicer chat experience.
   - Run:
     ```bash
-    streamlit run backend/STEP3_app_llm_st.py
+    uv run streamlit run backend/STEP3_app_llm_st.py
     ```
 
 - llm_st_doc.py → `backend/STEP4_app_llm_st_doc.py`
   - Streamlit UI + document upload (PDF/CSV) that is injected as context for analysis.
   - Run:
     ```bash
-    streamlit run backend/STEP4_app_llm_st_doc.py
+    uv run streamlit run backend/STEP4_app_llm_st_doc.py
     ```
   - For PDFs/CSVs:
     ```bash
-    pip install PyPDF2 pandas
+    uv add PyPDF2 pandas
     ```

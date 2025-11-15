@@ -77,16 +77,16 @@ Visit:
 ```bash
 mkdir hot-mess-coach
 cd hot-mess-coach
-uv venv
-source .venv/bin/activate
-pip install fastapi uvicorn python-multipart
+uv init
+uv add fastapi "uvicorn[standard]" python-multipart
+uv sync
 ```
 
 Create `main.py` with a basic FastAPI app + `/analyze` endpoint.
 
 Run locally:
 ```bash
-uvicorn main:app --reload
+uv run uvicorn main:app --reload
 ```
 
 ---

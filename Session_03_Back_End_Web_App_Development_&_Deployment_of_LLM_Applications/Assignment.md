@@ -40,9 +40,9 @@ In this take-home assignment, you will:
 ```bash
 mkdir hot-mess-coach-backend
 cd hot-mess-coach-backend
-uv venv
-source .venv/bin/activate
-pip install fastapi uvicorn python-multipart openai
+uv init
+uv add fastapi "uvicorn[standard]" python-multipart openai
+uv sync
 ```
 
 ---
@@ -67,7 +67,7 @@ def health():
 Run:
 
 ```bash
-uvicorn main:app --reload
+uv run uvicorn main:app --reload
 ```
 
 ---
@@ -99,7 +99,7 @@ def chat(req: ChatRequest):
 ## Step 4: Test Locally 🏃
 
 ```
-uvicorn main:app --reload
+uv run uvicorn main:app --reload
 ```
 
 Visit:
