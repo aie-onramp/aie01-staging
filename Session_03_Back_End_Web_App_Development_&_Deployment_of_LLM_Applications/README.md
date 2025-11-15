@@ -32,6 +32,8 @@ In this session, you'll build a Python FastAPI backend called Hot Mess Coach, ad
 
 The deployed Hot Mess Coach backend on Vercel (and optional frontend connected to it)!
 
+Our deployed Vercel application is here: https://aim-hot-mess-coach.vercel.app/ with GitHub repo available here: https://github.com/katgaw/AIM-hot-mess-coach
+
 <details>
 <summary>🚧 Advanced Modules (OPTIONAL) — <i>open for details</i></summary>
 

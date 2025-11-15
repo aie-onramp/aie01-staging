@@ -7,6 +7,8 @@
 
 This repo contains a few minimal FastAPI/Streamlit examples that progress from a basic HTML page to an LLM-backed UI with document upload. Keep the vibe, keep it simple.
 
+Our deployed Vercel application is here: https://aim-hot-mess-coach.vercel.app/ with GitHub repo available here: https://github.com/katgaw/AIM-hot-mess-coach
+
 ### Quick Start
 
 ```bash
