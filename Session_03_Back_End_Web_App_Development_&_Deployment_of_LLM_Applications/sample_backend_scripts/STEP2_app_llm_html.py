@@ -41,4 +41,4 @@ def chat(user_message: str = Form(...)):
     <br><a href="/">⬅ Back</a>
     """
 
-#uvicorn backend.test_llm:app --reload --host 0.0.0.0 --port 8000
+#uv run uvicorn STEP2_app_llm_html:app --reload --host 0.0.0.0 --port 8000

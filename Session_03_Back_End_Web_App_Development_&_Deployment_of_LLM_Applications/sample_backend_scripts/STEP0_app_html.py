@@ -27,4 +27,4 @@ def result(coffees: int = Form(...), multi: int = Form(...)):
 def favicon():
     return Response(status_code=204)
 
-#uvicorn backend.test:app --reload --host 0.0.0.0 --port 8000
+#uv run uvicorn STEP0_app_html:app --reload --host 0.0.0.0 --port 8000

@@ -25,3 +25,5 @@ if st.button("Coach me"):
         reply = response.choices[0].message.content
         st.subheader("💬 Coach says:")
         st.write(reply)
+
+##uv run uvicorn STEP3_app_llm_st:app --reload --host 0.0.0.0 --port 8000
