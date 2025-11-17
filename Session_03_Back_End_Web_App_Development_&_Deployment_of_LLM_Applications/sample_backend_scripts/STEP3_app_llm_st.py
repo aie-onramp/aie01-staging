@@ -26,4 +26,4 @@ if st.button("Coach me"):
         st.subheader("💬 Coach says:")
         st.write(reply)
 
-##streamlit run STEP3_app_llm_st.py
+##uv run streamlit run STEP3_app_llm_st.py

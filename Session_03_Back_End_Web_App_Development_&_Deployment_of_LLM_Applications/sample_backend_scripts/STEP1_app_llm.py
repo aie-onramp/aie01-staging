@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.responses import HTMLResponse, PlainTextResponse
 from pydantic import BaseModel
 from openai import OpenAI
 from dotenv import load_dotenv
@@ -12,6 +13,21 @@ app = FastAPI(title="HotMessCoach")
 
 class ChatRequest(BaseModel):
     message: str
+
+@app.get("/", response_class=HTMLResponse)
+def index():
+    return """
+    <h2>HotMessCoach API</h2>
+    <p>POST a JSON body to <code>/chat</code>:</p>
+    <pre>{
+  "message": "I feel like a hot mess today..."
+}</pre>
+    <p>Or open <a href="/docs">/docs</a> for interactive Swagger UI.</p>
+    """
+
+@app.get("/favicon.ico")
+def favicon():
+    return PlainTextResponse("", status_code=204)
 
 @app.post("/chat")
 def chat(req: ChatRequest):
