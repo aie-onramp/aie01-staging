@@ -1,4 +1,4 @@
-# **🖼️ Session 3 Overview: Backend Development**
+# **🚢 Session 3 Overview: Backend Development**
 
 In this session, we’ll learn how to build a FastAPI backend and deploy it to Vercel.  
 
