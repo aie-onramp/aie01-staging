@@ -8,15 +8,11 @@ Welcome! In this breakout room we switch from frontend to backend—students wil
 
 - [What Is This Demo?](#what-is-this-demo)
 - [Prerequisites](#prerequisites)
-- [Overview](#overview)
-- [Step 1: Create Your FastAPI "Hot Mess Coach" App 🐍](#step-1-create-your-fastapi-hot-mess-coach-app-)
-- [Step 2: Run Locally 🏃](#step-2-run-locally-)
-- [Step 3: Add GitFlow + Cursor Rules 📝](#step-3-add-gitflow--cursor-rules-)
-- [Step 4: Deploy FastAPI Backend to Vercel ☁️](#step-4-deploy-fastapi-backend-to-vercel-️)
-- [Step 5: Add LLM Chat to Hot Mess Coach 🤖](#step-5-add-llm-chat-to-hot-mess-coach-)
-- [Step 6: Context Engineering + Document Analysis (PDF/CSV) 📄➡️🧠](#step-6-context-engineering--document-analysis-pdfcsv-️)
-- [Advanced Module: Chunking + Uploading CSV/PDF + Local Testing + Re-deploy 🚀](#advanced-module-chunking--uploading-csvpdf--local-testing--re-deploy-)
-- [🏗️ Activity #1](#️-activity-1)
+- [Breakout Room #1](#breakout-room-1)
+- [Step 1: Add GitFlow + Cursor Rules](#step-1-add-gitflow--cursor-rules)
+- [Step 2: Create Your FastAPI "Hot Mess Coach" App](#step-2-create-your-fastapi-hot-mess-coach-app)
+- [Step 3: Deploy FastAPI Backend to Vercel](#step-3-deploy-fastapi-backend-to-vercel)
+- [Activity #1](#activity-1)
 
 ---
 
@@ -61,90 +57,66 @@ Add:
 - `gitflow_rules.md`
 - `cursor_rules.md`
 
-Teach feature branches, PRs, merging into `develop`, releasing to `main`.
-
 ---
-
-# 🏃 Step 2: Run Locally
-
-Visit:
-- http://localhost:8000
-- http://localhost:8000/docs
-
----
-# 🐍 Step 3: Create Your FastAPI "Hot Mess Coach" App
+# 🐍 Step 2: Create Your FastAPI "Hot Mess Coach" App
 
 ```bash
-mkdir hot-mess-coach
+
+# create Github folder and clone it
+git clone {ssh_keys_to_your_hot_mess_coach_repo}
+
+# open your cloned folder
 cd hot-mess-coach
-uv init
-uv add fastapi "uvicorn[standard]" python-multipart
+
+# create and move to your backend folder
+mkdir api
+cd api
+
+# Copy your files first
+cp ../../sample_backend_scripts/STEP1_app_llm.py .
+mv STEP1_app_llm.py index.py
+
+# Move to your hot-mess-coach folder
+cd ../
+
+# Upload remaining files for the application
+cp ../AIM-hot-mess-coach/requirements.txt .
+cp ../AIM-hot-mess-coach/pyproject.toml .
+
+# Add file for Vercel deployment
+cp ../AIM-hot-mess-coach/vercel.json .
+
+# Create the .venv from your pyproject
 uv sync
 ```
 
-Create `main.py` with a basic FastAPI app + `/analyze` endpoint.
-
 Run locally:
 ```bash
-uv run uvicorn main:app --reload
+uv run uvicorn api.index:app --reload --host 0.0.0.0 --port 8000
 ```
 
+Visit:
+
+- http://localhost:8000  
+- http://localhost:8000/docs 
+
 ---
+# ☁️ Step 3: Deploy FastAPI Backend to Vercel
 
-# ☁️ Step 4: Deploy FastAPI Backend to Vercel
-
-Create `vercel.json`:
-
-```json
-{
-  "builds": [{ "src": "main.py", "use": "@vercel/python" }],
-  "routes": [{ "src": "/(.*)", "dest": "main.py" }]
-}
+Add changes to github:
+```bash
+git add .
+git commit -m 'adding files'
+git push origin main
 ```
 
 Deploy:
 
 ```bash
-vercel
+vercel --prod
 ```
 
----
-
-# 🤖 Step 5: Add LLM Chat to Hot Mess Coach
-
-Add `/chat` endpoint:
-
-- Input: `{"message": "..."}`
-- Output: LLM-powered response
-- Add persona: “Hot Mess Coach”
-
-Add system instructions for context engineering.
-
----
-
-# 📄➡️🧠 Step 6: Context Engineering + Document Analysis
-
-Add endpoints:
-
-### `/upload-csv`
-- Accept CSV → convert to JSON → summarize via LLM
-
-### `/upload-pdf`
-- Extract text → send structured JSON to LLM
-
----
-
-# 🚀 Advanced Module: Chunking + Local Testing + Re-deploy
-
-Chunking helper:
-
-```python
-def chunk_text(text, size=1500):
-    return [text[i:i+size] for i in range(0, len(text), size)]
-```
-
-Test in a notebook → integrate into FastAPI → run locally → deploy again.
-
+Make sure to upload your OPENAI_API_KEY as environment variable in Vercel!
 ---
 
 # 🏗️ Activity #1
@@ -153,16 +125,12 @@ Now it's your turn to experiment and get creative! Use this time to practice wha
 
 **Experiment with Backend Customization:**
 
-- Create a new .py file containing your FastAPI application
-- Add an LLM-powered chatbot endpoint
+- Create your own repository
+- Create .py file containing your FastAPI application
 - use .env for API-KEY
-- Create feature branches for each new addition
-- Implement extra features (new routes, utilities, or enhancements)
+- Implement extra features
 - Open and merge pull requests following GitFlow best practices
 - Deploy your updated backend to Vercel
-
-
-
 ---
 
 Enjoy building your backend AI app! 🎉

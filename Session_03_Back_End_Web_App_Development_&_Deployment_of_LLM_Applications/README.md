@@ -15,16 +15,14 @@ In this session, you'll build a Python FastAPI backend called Hot Mess Coach, ad
 
 - 🤝 [Breakout Room](./BreakoutRoom.md)
     - Add GitFlow and Cursor rules
-    - Scaffold a FastAPI backend
-    - Run locally and view docs
+    - Create GitHub repo
+    - Add a FastAPI backend
+    - Run locally
     - Deploy the backend to Vercel
-    - Add LLM chat (Hot Mess Coach persona)
-    - Optional: PDF/CSV upload + analysis
-    - Advanced: chunking + local testing + re-deploy
 
 - 🤝 [Assignment](./Assignment.md)
-    - Set up environment and scaffold FastAPI
-    - Add `/chat` endpoint powered by an LLM
+    - Set up environment and create FastAPI
+    - Add extra features
     - Test locally and deploy to Vercel
     - Advanced: generate a frontend in v0, connect to backend, deploy frontend
 
@@ -32,7 +30,11 @@ In this session, you'll build a Python FastAPI backend called Hot Mess Coach, ad
 
 The deployed Hot Mess Coach backend on Vercel (and optional frontend connected to it)!
 
-Our deployed Vercel application is here: https://aim-hot-mess-coach.vercel.app/ with GitHub repo available here: https://github.com/katgaw/AIM-hot-mess-coach
+Our deployed Vercel applications are here: 
+1. https://aim-hot-mess-coach.vercel.app/
+   with GitHub repo available here: https://github.com/katgaw/AIM-hot-mess-coach
+2. https://aim-hot-mess-coach-upload.vercel.app/
+    with GitHub repo available here: https://github.com/katgaw/AIM-hot-mess-coach-upload
 
 <details>
 <summary>🚧 Advanced Modules (OPTIONAL) — <i>open for details</i></summary>
