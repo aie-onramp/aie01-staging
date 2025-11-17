@@ -1,5 +1,4 @@
-from fastapi import FastAPI, Response
-from fastapi.responses import HTMLResponse
+from fastapi import FastAPI
 from pydantic import BaseModel
 from openai import OpenAI
 from dotenv import load_dotenv
@@ -25,16 +24,4 @@ def chat(req: ChatRequest):
     )
     return {"reply": response.choices[0].message.content}
 
-@app.get("/", response_class=HTMLResponse)
-def root():
-    return """
-    <h2>🔥 Hot Mess Coach — STEP1 (LLM API)</h2>
-    <p>This service exposes <code>POST /chat</code>. Use the interactive docs:</p>
-    <p><a href="/docs">Open Swagger UI</a></p>
-    """
-
-@app.get("/favicon.ico", include_in_schema=False)
-def favicon():
-    return Response(status_code=204)
-
-#uv run uvicorn STEP1_app_html:app --reload --host 0.0.0.0 --port 8000
+#uv run uvicorn STEP1_app_llm:app --reload --host 0.0.0.0 --port 8000

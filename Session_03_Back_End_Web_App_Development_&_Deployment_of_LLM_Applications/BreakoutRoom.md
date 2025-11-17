@@ -22,11 +22,12 @@ Welcome! In this breakout room we switch from frontend to backend—students wil
 - Cursor IDE
 - GitHub account
 - Vercel account
-- Install Vercel CLI:
+- uv (Python package manager)
+- OPENAI_API_KEY (set as an environment variable in Vercel)
+- Optional: Vercel CLI (only if deploying from terminal):
   ```bash
   npm install -g vercel
   ```
-
 ---
 
 ## 🤝 Breakout Room #1

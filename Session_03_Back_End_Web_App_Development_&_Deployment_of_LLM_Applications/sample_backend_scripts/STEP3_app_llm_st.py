@@ -26,4 +26,4 @@ if st.button("Coach me"):
         st.subheader("💬 Coach says:")
         st.write(reply)
 
-##uv run uvicorn STEP3_app_llm_st:app --reload --host 0.0.0.0 --port 8000
+##streamlit run STEP3_app_llm_st.py

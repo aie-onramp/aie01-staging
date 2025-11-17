@@ -27,4 +27,8 @@ def result(coffees: int = Form(...), multi: int = Form(...)):
 def favicon():
     return Response(status_code=204)
 
+# Run locally:
 #uv run uvicorn STEP0_app_html:app --reload --host 0.0.0.0 --port 8000
+
+# make sure to kill your port
+# pkill -f uvicorn || true

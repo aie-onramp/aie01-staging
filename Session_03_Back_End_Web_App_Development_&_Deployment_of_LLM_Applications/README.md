@@ -9,6 +9,22 @@
 |:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|
 | Coming Soon | Coming Soon | Coming Soon | Coming Soon | You are here! | Coming Soon | Coming Soon |
 
+---
+
+## Prerequisites
+
+- Python 3.10+
+- Cursor IDE
+- GitHub account
+- Vercel account
+- uv (Python package manager)
+- OPENAI_API_KEY (set as an environment variable in Vercel)
+- Optional: Vercel CLI (only if deploying from terminal):
+  ```bash
+  npm install -g vercel
+  ```
+---
+
 # Build 🏗️
 
 In this session, you'll build a Python FastAPI backend called Hot Mess Coach, add an LLM chat endpoint, optionally add document analysis (PDF/CSV), and deploy to Vercel. Advanced: generate a frontend in v0 and connect it to your backend.
