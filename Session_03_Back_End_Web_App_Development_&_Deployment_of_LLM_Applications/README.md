@@ -23,6 +23,17 @@
   ```bash
   npm install -g vercel
   ```
+
+
+In today's code, we also use several new tools and frameworks:
+- [OpenAI API](https://platform.openai.com/docs/guides/text)
+- [FastAPI](https://fastapi.tiangolo.com/tutorial/first-steps/)
+- [HTML](https://www.w3schools.com/html/)
+- [Streamlit](https://docs.streamlit.io/get-started/fundamentals/main-concepts) 
+
+Note: You are **not expected or required** to know these yet; this list is simply here for reference and exploration.
+
+
 ---
 
 # Build 🏗️
